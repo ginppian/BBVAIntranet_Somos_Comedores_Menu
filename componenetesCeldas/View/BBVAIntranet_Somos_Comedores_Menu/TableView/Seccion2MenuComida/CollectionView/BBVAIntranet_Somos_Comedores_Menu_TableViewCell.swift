@@ -8,8 +8,12 @@
 
 import UIKit
 
+protocol Refrescar_Comedores_Menu_TableViewCell_Delegate: NSObjectProtocol {
+    func refrescar_comedores_menu_cell_delegate(menus: [BBVAIntranet_Somos_Comedores_Menu])
+}
+
 extension BBVAIntranet_Somos_Comedores_Menu_TableViewCell {
-    func loadUI() {
+    func setupCollection() {
         self.collectionView.showsHorizontalScrollIndicator = false
         self.collectionView.showsVerticalScrollIndicator = false
         
@@ -18,20 +22,25 @@ extension BBVAIntranet_Somos_Comedores_Menu_TableViewCell {
         }
         
         self.collectionView.isPagingEnabled = true
+        self.collectionView.bounces = false
     }
 }
 
-class BBVAIntranet_Somos_Comedores_Menu_TableViewCell: UITableViewCell, UICollectionViewDataSource, UICollectionViewDelegate {
+class BBVAIntranet_Somos_Comedores_Menu_TableViewCell: UITableViewCell, UICollectionViewDataSource, UICollectionViewDelegate, Refrescar_Comedores_Menu_TableViewCell_Delegate {
     
     public static let identifier = "BBVAIntranet_Somos_Comedores_Menu_TableViewCell"
     public static let height = CGFloat(500)
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    var menus = [BBVAIntranet_Somos_Comedores_Menu]()
+    
+    weak var refrescar_menuDia_delegate: Refrescar_Menu_Dia_CollectionViewCell_Delegate?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.loadUI()
+        self.setupCollection()
         
         let nib = UINib(nibName: BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.identifier, bundle: nil)
         self.collectionView.register(nib, forCellWithReuseIdentifier: BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.identifier)
@@ -39,17 +48,20 @@ class BBVAIntranet_Somos_Comedores_Menu_TableViewCell: UITableViewCell, UICollec
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
         
-        self.collectionView.bounces = false
-        
+        self.selectionStyle = .none
     }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return self.menus.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.identifier,
                                                          for: indexPath) as? BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell {
-            cell.backgroundColor = .blue
+            
+            self.refrescar_menuDia_delegate = cell
+            self.refrescar_menuDia_delegate?.refrescar_menu_dia_collectioncell_delegate(menu: self.menus[indexPath.item])
+            //cell.backgroundColor = .blue
             return cell
         }
         return UICollectionViewCell()
@@ -61,6 +73,12 @@ class BBVAIntranet_Somos_Comedores_Menu_TableViewCell: UITableViewCell, UICollec
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 0.0
+    }
+    
+    func refrescar_comedores_menu_cell_delegate(menus: [BBVAIntranet_Somos_Comedores_Menu]) {
+        print("refrescar_comedores_menu_cell_delegate")
+        self.menus = menus
+        //self.reloadInputViews()
     }
 }
 

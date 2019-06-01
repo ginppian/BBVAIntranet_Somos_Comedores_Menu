@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  BBVAIntranet_Somos_Comedores_MenuViewController.swift
 //  componenetesCeldas
 //
-//  Created by Gmo Ginppian on 5/31/19.
+//  Created by Gmo Ginppian on 6/1/19.
 //  Copyright © 2019 ginppian. All rights reserved.
 //
 
@@ -34,7 +34,10 @@ extension BBVAIntranet_Somos_Comedores_Menu_ViewController: UITableViewDataSourc
             return UITableViewCell()
         case BBVAIntranet_Somos_Comedores_Menu_Secciones.menuComida.rawValue:
             if let cell = tableView.dequeueReusableCell(withIdentifier: BBVAIntranet_Somos_Comedores_Menu_TableViewCell.identifier, for: indexPath) as? BBVAIntranet_Somos_Comedores_Menu_TableViewCell {
-                cell.contentView.backgroundColor = UIColor.green
+                
+                self.refrescar_menu_delegate = cell
+                self.refrescar_menu_delegate?.refrescar_comedores_menu_cell_delegate(menus: self.menus)
+
                 return cell
             }
             return UITableViewCell()
@@ -58,6 +61,10 @@ extension BBVAIntranet_Somos_Comedores_Menu_ViewController: UITableViewDelegate 
 class BBVAIntranet_Somos_Comedores_Menu_ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    
+    var menus = [BBVAIntranet_Somos_Comedores_Menu]()
+    
+    weak var refrescar_menu_delegate: Refrescar_Comedores_Menu_TableViewCell_Delegate?
     
     var cabecera_superior_view: BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View = {
         let v = BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.fromNib()
@@ -102,4 +109,8 @@ class BBVAIntranet_Somos_Comedores_Menu_ViewController: UIViewController {
         cabecera_superior_view.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
     }
     
+    convenience init(menus: [BBVAIntranet_Somos_Comedores_Menu]) {
+        self.init()
+        self.menus = menus
+    }
 }

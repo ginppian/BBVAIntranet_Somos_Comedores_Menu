@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 
+protocol Refrescar_Menu_Dia_CollectionViewCell_Delegate: NSObjectProtocol {
+    func refrescar_menu_dia_collectioncell_delegate(menu: BBVAIntranet_Somos_Comedores_Menu)
+}
+
 extension BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell: UITableViewDelegate {
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.height
@@ -54,14 +58,14 @@ extension BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell: UITableViewD
     
 }
 
-class BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell: UICollectionViewCell {
-    
-    var menu = BBVAIntranet_Somos_Comedores_Menu()
-    
+class BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell: UICollectionViewCell, Refrescar_Menu_Dia_CollectionViewCell_Delegate {
+        
     public static let identifier = "BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell"
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var lbl: UILabel!
+    
+    var menu = BBVAIntranet_Somos_Comedores_Menu()
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -80,8 +84,8 @@ class BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell: UICollectionView
 
     }
     
-//    convenience init(menu: BBVAIntranet_Somos_Comedores_Menu) {
-//        self.init()
-//        self.menu = menu
-//    }
+    func refrescar_menu_dia_collectioncell_delegate(menu: BBVAIntranet_Somos_Comedores_Menu) {
+        self.menu = menu
+    }
+
 }
