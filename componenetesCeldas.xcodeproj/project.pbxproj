@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C9B1F2122A1D18A00D39D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1F2022A1D18A00D39D0B /* AppDelegate.swift */; };
+		3C9B1F2322A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1F2222A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_ViewController.swift */; };
+		3C9B1F2622A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1F2422A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu.storyboard */; };
+		3C9B1F2822A1D18C00D39D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1F2722A1D18C00D39D0B /* Assets.xcassets */; };
+		3C9B1F2B22A1D18C00D39D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1F2922A1D18C00D39D0B /* LaunchScreen.storyboard */; };
+		3C9B1F3922A1D2A400D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1F3822A1D2A400D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.xib */; };
+		3C9B1F3B22A1D2AE00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1F3A22A1D2AE00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.swift */; };
+		3C9B1F3F22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1F3D22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.swift */; };
+		3C9B1F4022A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1F3E22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.xib */; };
+		3C9B1F9022A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1F8E22A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift */; };
+		3C9B1F9122A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1F8F22A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.xib */; };
+		3C9B1F9D22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1F9B22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift */; };
+		3C9B1F9E22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1F9C22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.xib */; };
+		3C9B1FA322A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_DishType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1FA022A2F54F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_DishType.swift */; };
+		3C9B1FA422A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Platillo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1FA122A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Platillo.swift */; };
+		3C9B1FA522A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1FA222A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu.swift */; };
+		3C9B1FA822A2F58100D39D0B /* BBVAIntranet_Somos_Comedores_Tipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1FA722A2F58100D39D0B /* BBVAIntranet_Somos_Comedores_Tipo.swift */; };
+		3C9B1FAC22A2FBFB00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1FAA22A2FBFA00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.xib */; };
+		3C9B1FAF22A2FC3000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1FAE22A2FC3000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.swift */; };
+		3C9B1FB122A2FD0500D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B1FB022A2FD0500D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.swift */; };
+		3C9B1FB322A2FD0F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9B1FB222A2FD0F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C9B1F1D22A1D18A00D39D0B /* componenetesCeldas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = componenetesCeldas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9B1F2022A1D18A00D39D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C9B1F2222A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_ViewController.swift; sourceTree = "<group>"; };
+		3C9B1F2522A1D18A00D39D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BBVAIntranet_Somos_Comedores_Menu.storyboard; sourceTree = "<group>"; };
+		3C9B1F2722A1D18C00D39D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C9B1F2A22A1D18C00D39D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C9B1F2C22A1D18C00D39D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9B1F3822A1D2A400D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.xib; sourceTree = "<group>"; };
+		3C9B1F3A22A1D2AE00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.swift; sourceTree = "<group>"; };
+		3C9B1F3D22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.swift; sourceTree = "<group>"; };
+		3C9B1F3E22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.xib; sourceTree = "<group>"; };
+		3C9B1F8E22A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift; sourceTree = "<group>"; };
+		3C9B1F8F22A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBVAIntranet_Somos_Comedores_Menu_TableViewCell.xib; sourceTree = "<group>"; };
+		3C9B1F9B22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift; sourceTree = "<group>"; };
+		3C9B1F9C22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.xib; sourceTree = "<group>"; };
+		3C9B1FA022A2F54F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_DishType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_DishType.swift; sourceTree = "<group>"; };
+		3C9B1FA122A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Platillo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_Platillo.swift; sourceTree = "<group>"; };
+		3C9B1FA222A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu.swift; sourceTree = "<group>"; };
+		3C9B1FA722A2F58100D39D0B /* BBVAIntranet_Somos_Comedores_Tipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Tipo.swift; sourceTree = "<group>"; };
+		3C9B1FAA22A2FBFA00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.xib; sourceTree = "<group>"; };
+		3C9B1FAE22A2FC3000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.swift; sourceTree = "<group>"; };
+		3C9B1FB022A2FD0500D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.swift; sourceTree = "<group>"; };
+		3C9B1FB222A2FD0F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C9B1F1A22A1D18A00D39D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9B1F1422A1D18A00D39D0B = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F1F22A1D18A00D39D0B /* componenetesCeldas */,
+				3C9B1F1E22A1D18A00D39D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C9B1F1E22A1D18A00D39D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F1D22A1D18A00D39D0B /* componenetesCeldas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C9B1F1F22A1D18A00D39D0B /* componenetesCeldas */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F2C22A1D18C00D39D0B /* Info.plist */,
+				3C9B1F2022A1D18A00D39D0B /* AppDelegate.swift */,
+				3C9B1F2722A1D18C00D39D0B /* Assets.xcassets */,
+				3C9B1F2922A1D18C00D39D0B /* LaunchScreen.storyboard */,
+				3C9B1F3422A1D1DD00D39D0B /* Model */,
+				3C9B1F3322A1D1BD00D39D0B /* ModelView */,
+				3C9B1F3222A1D1AD00D39D0B /* View */,
+			);
+			path = componenetesCeldas;
+			sourceTree = "<group>";
+		};
+		3C9B1F3222A1D1AD00D39D0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F2422A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu.storyboard */,
+				3C9B1F2222A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_ViewController.swift */,
+				3C9B1F3522A1D1FC00D39D0B /* BBVAIntranet_Somos_Comedores_Menu */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3C9B1F3322A1D1BD00D39D0B /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		3C9B1F3422A1D1DD00D39D0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1FA622A2F56100D39D0B /* Enums */,
+				3C9B1FA022A2F54F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_DishType.swift */,
+				3C9B1FA122A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Platillo.swift */,
+				3C9B1FA222A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C9B1F3522A1D1FC00D39D0B /* BBVAIntranet_Somos_Comedores_Menu */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F3722A1D29C00D39D0B /* Cabecera_Superior_View */,
+				3C9B1F4122A23BD500D39D0B /* TableView */,
+			);
+			path = BBVAIntranet_Somos_Comedores_Menu;
+			sourceTree = "<group>";
+		};
+		3C9B1F3622A1D24500D39D0B /* Seccion1Cabecera */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F3C22A1D7D300D39D0B /* Celdas */,
+			);
+			path = Seccion1Cabecera;
+			sourceTree = "<group>";
+		};
+		3C9B1F3722A1D29C00D39D0B /* Cabecera_Superior_View */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F3822A1D2A400D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.xib */,
+				3C9B1F3A22A1D2AE00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.swift */,
+			);
+			path = Cabecera_Superior_View;
+			sourceTree = "<group>";
+		};
+		3C9B1F3C22A1D7D300D39D0B /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F3E22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.xib */,
+				3C9B1F3D22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.swift */,
+			);
+			path = Celdas;
+			sourceTree = "<group>";
+		};
+		3C9B1F4122A23BD500D39D0B /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F3622A1D24500D39D0B /* Seccion1Cabecera */,
+				3C9B1F8C22A2D6BA00D39D0B /* Seccion2MenuComida */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3C9B1F8C22A2D6BA00D39D0B /* Seccion2MenuComida */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F8D22A2D6D200D39D0B /* CollectionView */,
+			);
+			path = Seccion2MenuComida;
+			sourceTree = "<group>";
+		};
+		3C9B1F8D22A2D6D200D39D0B /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F8E22A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift */,
+				3C9B1F8F22A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.xib */,
+				3C9B1F9222A2EF0000D39D0B /* CeldasColeccion */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		3C9B1F9222A2EF0000D39D0B /* CeldasColeccion */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F9F22A2EFFE00D39D0B /* DiaCeldaColleccion */,
+			);
+			path = CeldasColeccion;
+			sourceTree = "<group>";
+		};
+		3C9B1F9F22A2EFFE00D39D0B /* DiaCeldaColleccion */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1F9B22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift */,
+				3C9B1F9C22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.xib */,
+				3C9B1FA922A2FAD500D39D0B /* CeldaTabla */,
+			);
+			path = DiaCeldaColleccion;
+			sourceTree = "<group>";
+		};
+		3C9B1FA622A2F56100D39D0B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1FA722A2F58100D39D0B /* BBVAIntranet_Somos_Comedores_Tipo.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		3C9B1FA922A2FAD500D39D0B /* CeldaTabla */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1FB422A2FDDE00D39D0B /* Seccion */,
+				3C9B1FAE22A2FC3000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.swift */,
+				3C9B1FAA22A2FBFA00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.xib */,
+			);
+			path = CeldaTabla;
+			sourceTree = "<group>";
+		};
+		3C9B1FB422A2FDDE00D39D0B /* Seccion */ = {
+			isa = PBXGroup;
+			children = (
+				3C9B1FB022A2FD0500D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.swift */,
+				3C9B1FB222A2FD0F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.xib */,
+			);
+			path = Seccion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C9B1F1C22A1D18A00D39D0B /* componenetesCeldas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9B1F2F22A1D18C00D39D0B /* Build configuration list for PBXNativeTarget "componenetesCeldas" */;
+			buildPhases = (
+				3C9B1F1922A1D18A00D39D0B /* Sources */,
+				3C9B1F1A22A1D18A00D39D0B /* Frameworks */,
+				3C9B1F1B22A1D18A00D39D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = componenetesCeldas;
+			productName = componenetesCeldas;
+			productReference = 3C9B1F1D22A1D18A00D39D0B /* componenetesCeldas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9B1F1522A1D18A00D39D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ginppian;
+				TargetAttributes = {
+					3C9B1F1C22A1D18A00D39D0B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 3C9B1F1822A1D18A00D39D0B /* Build configuration list for PBXProject "componenetesCeldas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9B1F1422A1D18A00D39D0B;
+			productRefGroup = 3C9B1F1E22A1D18A00D39D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C9B1F1C22A1D18A00D39D0B /* componenetesCeldas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C9B1F1B22A1D18A00D39D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9B1F4022A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.xib in Resources */,
+				3C9B1F3922A1D2A400D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.xib in Resources */,
+				3C9B1FAC22A2FBFB00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.xib in Resources */,
+				3C9B1F9122A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.xib in Resources */,
+				3C9B1FB322A2FD0F00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.xib in Resources */,
+				3C9B1F9E22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.xib in Resources */,
+				3C9B1F2B22A1D18C00D39D0B /* LaunchScreen.storyboard in Resources */,
+				3C9B1F2822A1D18C00D39D0B /* Assets.xcassets in Resources */,
+				3C9B1F2622A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9B1F1922A1D18A00D39D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9B1F9D22A2EFF700D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift in Sources */,
+				3C9B1F9022A2D72600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift in Sources */,
+				3C9B1FA522A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu.swift in Sources */,
+				3C9B1F2322A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_ViewController.swift in Sources */,
+				3C9B1FA322A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_DishType.swift in Sources */,
+				3C9B1F3F22A1D87600D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_Anuncio_TableViewCell.swift in Sources */,
+				3C9B1FAF22A2FC3000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_TableViewCell.swift in Sources */,
+				3C9B1F3B22A1D2AE00D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Cabecera_Superior_View.swift in Sources */,
+				3C9B1FA422A2F55000D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Platillo.swift in Sources */,
+				3C9B1FB122A2FD0500D39D0B /* BBVAIntranet_Somos_Comedores_Menu_Dia_Seccion_Tipo_View.swift in Sources */,
+				3C9B1FA822A2F58100D39D0B /* BBVAIntranet_Somos_Comedores_Tipo.swift in Sources */,
+				3C9B1F2122A1D18A00D39D0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C9B1F2422A1D18A00D39D0B /* BBVAIntranet_Somos_Comedores_Menu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9B1F2522A1D18A00D39D0B /* Base */,
+			);
+			name = BBVAIntranet_Somos_Comedores_Menu.storyboard;
+			sourceTree = "<group>";
+		};
+		3C9B1F2922A1D18C00D39D0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9B1F2A22A1D18C00D39D0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C9B1F2D22A1D18C00D39D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9B1F2E22A1D18C00D39D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9B1F3022A1D18C00D39D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NH8N5682;
+				INFOPLIST_FILE = componenetesCeldas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginppian.componenetesCeldas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C9B1F3122A1D18C00D39D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75NH8N5682;
+				INFOPLIST_FILE = componenetesCeldas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ginppian.componenetesCeldas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9B1F1822A1D18A00D39D0B /* Build configuration list for PBXProject "componenetesCeldas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9B1F2D22A1D18C00D39D0B /* Debug */,
+				3C9B1F2E22A1D18C00D39D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9B1F2F22A1D18C00D39D0B /* Build configuration list for PBXNativeTarget "componenetesCeldas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9B1F3022A1D18C00D39D0B /* Debug */,
+				3C9B1F3122A1D18C00D39D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C9B1F1522A1D18A00D39D0B /* Project object */;
+}
