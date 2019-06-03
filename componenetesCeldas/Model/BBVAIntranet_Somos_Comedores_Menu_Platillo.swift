@@ -78,4 +78,15 @@ public class BBVAIntranet_Somos_Comedores_Menu_Platillo: NSObject {
             self.id = newValue
         }
     }
+    
+    override public var description: String {
+        var _description = "\n"
+        
+        _description += "name: \(String(describing: self.name ?? String.Empty))\n"
+        _description += "kilocalories: \(String(describing: self.kilocalories?.description ?? String.Empty))\n"
+        _description += "dishType: \(String(describing: self.dishType?.description ?? String.Empty))\n"
+        _description += "id: \(String(describing: self.id?.description ?? String.Empty))\n"
+        
+        return _description
+    }
 }

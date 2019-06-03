@@ -12,7 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BBVAIntranet_Somos_Comedores_Menu_ViewController" customModule="componenetesCeldas" customModuleProvider="target">
             <connections>
-                <outlet property="tableView" destination="3X8-OA-GBp" id="cmo-hZ-g3R"/>
+                <outlet property="collectionView" destination="7LH-fe-q5m" id="hnN-3p-R77"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,17 +21,23 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3X8-OA-GBp">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7LH-fe-q5m">
                     <rect key="frame" x="0.0" y="108" width="414" height="754"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                </tableView>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ZmB-5W-RtC">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="3X8-OA-GBp" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5fi-vQ-WLZ"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="3X8-OA-GBp" secondAttribute="bottom" id="Qas-3m-oAT"/>
-                <constraint firstItem="3X8-OA-GBp" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="ZeF-M0-1Ir"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3X8-OA-GBp" secondAttribute="trailing" id="oRD-yx-B9X"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="7LH-fe-q5m" secondAttribute="bottom" id="Cgt-z2-C0X"/>
+                <constraint firstItem="7LH-fe-q5m" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="Ga0-tf-ZlT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7LH-fe-q5m" secondAttribute="trailing" id="LdY-Ju-yya"/>
+                <constraint firstItem="7LH-fe-q5m" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="n2P-g8-7RY"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>

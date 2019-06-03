@@ -48,14 +48,63 @@ public class BBVAIntranet_Somos_Comedores_Menu: NSObject {
     }
     
     convenience public init(json: NSDictionary) {
-        let soups = json["soups"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
-        let complements = json["complements"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
-        let mainCourses = json["mainCourses"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
-        let beans = json["beans"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
-        let salads = json["salads"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
-        let breads = json["breads"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
-        let desserts = json["desserts"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
-        let waters = json["waters"] as? [BBVAIntranet_Somos_Comedores_Menu_Platillo] ?? [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        
+        let soupsRow = json["soups"] as? [NSDictionary] ?? [NSDictionary]()
+        var soups = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for soupRow in soupsRow {
+            let soup = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: soupRow)
+            soups.append(soup)
+        }
+        
+        let complementsRow = json["complements"] as? [NSDictionary] ?? [NSDictionary]()
+        var complements = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for complementRow in complementsRow {
+            let complement = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: complementRow)
+            complements.append(complement)
+        }
+        
+        let mainCoursesRow = json["mainCourses"] as? [NSDictionary] ?? [NSDictionary]()
+        var mainCourses = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for mainCourseRow in mainCoursesRow {
+            let mainCourse = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: mainCourseRow)
+            mainCourses.append(mainCourse)
+        }
+        
+        let beansRow = json["beans"] as? [NSDictionary] ?? [NSDictionary]()
+        var beans = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for beanRow in beansRow {
+            let bean = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: beanRow)
+            beans.append(bean)
+        }
+        
+        let saladsRow = json["salads"] as? [NSDictionary] ?? [NSDictionary]()
+        var salads = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for saladRow in saladsRow {
+            let salad = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: saladRow)
+            salads.append(salad)
+        }
+        
+        let breadsRow = json["breads"] as? [NSDictionary] ?? [NSDictionary]()
+        var breads = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for breadRow in breadsRow {
+            let bread = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: breadRow)
+            breads.append(bread)
+        }
+        
+        let dessertsRow = json["desserts"] as? [NSDictionary] ?? [NSDictionary]()
+        var desserts = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for dessertRow in dessertsRow {
+            let dessert = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: dessertRow)
+            desserts.append(dessert)
+        }
+        
+        let watersRow = json["waters"] as? [NSDictionary] ?? [NSDictionary]()
+        var waters = [BBVAIntranet_Somos_Comedores_Menu_Platillo]()
+        for waterRow in watersRow {
+            let water = BBVAIntranet_Somos_Comedores_Menu_Platillo(json: waterRow)
+            waters.append(water)
+        }
+
         let date = json["date"] as? String ?? String()
         
         self.init(soups, complements, mainCourses, beans, salads, breads, desserts, waters, date)
@@ -164,5 +213,21 @@ public class BBVAIntranet_Somos_Comedores_Menu: NSObject {
         set {
             self.date = newValue
         }
+    }
+    
+    override public var description: String {
+        var _description = "\n"
+        
+        _description += "soups: \(String(describing: self.soups?.description ?? String.Empty))\n"
+        _description += "complements: \(String(describing: self.complements?.description ?? String.Empty))\n"
+        _description += "mainCourses: \(String(describing: self.mainCourses?.description ?? String.Empty))\n"
+        _description += "beans: \(String(describing: self.beans?.description ?? String.Empty))\n"
+        _description += "salads: \(String(describing: self.salads?.description ?? String.Empty))\n"
+        _description += "breads: \(String(describing: self.breads?.description ?? String.Empty ))\n"
+        _description += "desserts: \(String(describing: self.desserts?.description ?? String.Empty ))\n"
+        _description += "waters: \(String(describing: self.waters?.description ?? String.Empty ))\n"
+        _description += "date: \(String(describing: self.date ?? String.Empty ))\n"
+        
+        return _description
     }
 }

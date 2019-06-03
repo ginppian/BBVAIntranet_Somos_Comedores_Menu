@@ -15,12 +15,25 @@ enum BBVAIntranet_Somos_Comedores_Menu_Secciones: Int, CaseIterable {
 }
 
 enum BBVAIntranet_Somos_Comedores_Tipo: Int, CaseIterable {
-    case sopa = 0
-    case complementos = 1
-    case platoPrincipal = 2
-    case frijoles = 3
-    case ensaladas = 4
-    case pan = 5
-    case postre = 6
-    case agua = 7
+    case fecha = 0
+    case sopa = 1
+    case complementos = 2
+    case platoPrincipal = 3
+    case frijoles = 4
+    case ensaladas = 5
+    case pan = 6
+    case postre = 7
+    case agua = 8
 }
+
+enum BBVAIntranet_Somos_Comedores_Tipo_Str: String {
+    case sopa = "SOPA"
+    case complementos = "COMPLEMENTO"
+    case platoPrincipal = "PLATO FUERTE"
+    case frijoles = "FRIJOLES"
+    case ensaladas = "ENSALADA"
+    case pan = "PAN"
+    case postre = "POSTRE"
+    case agua = "AGUA"
+}
+

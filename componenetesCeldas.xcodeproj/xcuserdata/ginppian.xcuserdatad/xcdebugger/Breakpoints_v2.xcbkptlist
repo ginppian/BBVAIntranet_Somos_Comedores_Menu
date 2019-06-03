@@ -2,4 +2,70 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "componenetesCeldas/View/BBVAIntranet_Somos_Comedores_Menu/TableView/Seccion2MenuComida/CollectionView/BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift"
+            timestampString = "581123661.484915"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "componenetesCeldas/View/BBVAIntranet_Somos_Comedores_Menu/TableView/Seccion2MenuComida/CollectionView/BBVAIntranet_Somos_Comedores_Menu_TableViewCell.swift"
+            timestampString = "581123661.485433"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "refrescar_comedores_menu_cell_delegate(menus:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "componenetesCeldas/View/BBVAIntranet_Somos_Comedores_Menu/TableView/Seccion2MenuComida/CollectionView/CeldasColeccion/DiaCeldaColleccion/BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift"
+            timestampString = "581123661.485502"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "refrescar_menu_dia_collectioncell_delegate(menu:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "componenetesCeldas/View/BBVAIntranet_Somos_Comedores_Menu/CollectionViewCell/DiaCeldaColleccion/BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell.swift"
+            timestampString = "581216461.684779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -1,0 +1,1082 @@
+[
+    {
+        "date": "04/06/2019",
+        "soups": [
+            {
+                "name": "Sopa de milpa",
+                "kilocalories": 93,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 280
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Berenjenas asadas",
+                "kilocalories": 64,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 281
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Filete de pescado en nuez",
+                "kilocalories": 217,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 282
+            },
+            {
+                "name": "Pacholas de res",
+                "kilocalories": 604,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 283
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Negros quebrados",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 284
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 285
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 286
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Gelatina de café",
+                "kilocalories": 130,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 287
+            }
+        ],
+        "waters": [
+            {
+                "name": "De piña coco",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 288
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "05/06/2019",
+        "soups": [
+            {
+                "name": "Sopa de pasta pepita de melón",
+                "kilocalories": 315,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 289
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Chayotes al olivo",
+                "kilocalories": 75,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 290
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Tacos toluqueños",
+                "kilocalories": 983,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 291
+            },
+            {
+                "name": "Pollo en salsa combinada",
+                "kilocalories": 509,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 292
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Bayos de la olla",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 293
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 294
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 295
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Chocoretas",
+                "kilocalories": 231,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 296
+            }
+        ],
+        "waters": [
+            {
+                "name": "De Jamaica",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 297
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "06/06/2019",
+        "soups": [
+            {
+                "name": "Crema de queso gouda",
+                "kilocalories": 267,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 298
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Guarnición de brócoli al ajonjolí",
+                "kilocalories": 106,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 299
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Filete de pescado en salsa de acuyo",
+                "kilocalories": 137,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 300
+            },
+            {
+                "name": "Pulpa de res en salsa guajillo con nopal",
+                "kilocalories": 495,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 301
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Negros refritos",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 302
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 303
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 304
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Arroz con leche",
+                "kilocalories": 217,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 305
+            }
+        ],
+        "waters": [
+            {
+                "name": "De mango con naranja",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 306
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "07/06/2019",
+        "soups": [
+            {
+                "name": "Petit marmit",
+                "kilocalories": 41,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 307
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Espaguetti rojo",
+                "kilocalories": 563,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 308
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Torta de acelga en salsa de chile mulato",
+                "kilocalories": 457,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 309
+            },
+            {
+                "name": "Fajita de pollo en salsa verde con champiñones",
+                "kilocalories": 272,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 310
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "refritos Bayos al chipotle",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 311
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 312
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 313
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Buñuelos",
+                "kilocalories": 163,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 314
+            }
+        ],
+        "waters": [
+            {
+                "name": "De tutifruti",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 315
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "10/06/2019",
+        "soups": [
+            {
+                "name": "Arroz blanco",
+                "kilocalories": 141,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 316
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Combinación california",
+                "kilocalories": 109,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 317
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Salpicón de atún",
+                "kilocalories": 273,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 318
+            },
+            {
+                "name": "Birria de res",
+                "kilocalories": 277,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 319
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Negros de la olla",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 320
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 321
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 322
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Rollo de guayaba con cajeta",
+                "kilocalories": 206,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 323
+            }
+        ],
+        "waters": [
+            {
+                "name": "De tamarindo",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 324
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "11/06/2019",
+        "soups": [
+            {
+                "name": "Sopa madrileña",
+                "kilocalories": 45,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 325
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Arroz a la mexicana",
+                "kilocalories": 292,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 326
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Pollo con mole xico",
+                "kilocalories": 601,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 327
+            },
+            {
+                "name": "Calabaza rellenas con morita",
+                "kilocalories": 318,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 328
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Bayos quebrados",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 329
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 330
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 331
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Manzana en almíbar",
+                "kilocalories": 338,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 332
+            }
+        ],
+        "waters": [
+            {
+                "name": "De mango",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 333
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "12/06/2019",
+        "soups": [
+            {
+                "name": "Fusilli a la puttanesca",
+                "kilocalories": 515,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 334
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Ejotes al olivo",
+                "kilocalories": 80,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 335
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Filete de pescado a la talla",
+                "kilocalories": 268,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 336
+            },
+            {
+                "name": "Sudaditos de suadero",
+                "kilocalories": 668,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 337
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Frijoles Negros refritos al comino",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 338
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 339
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 340
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Bubulubu",
+                "kilocalories": 131,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 341
+            }
+        ],
+        "waters": [
+            {
+                "name": "De sangría",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 342
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "13/06/2019",
+        "soups": [
+            {
+                "name": "Caldo huasteco",
+                "kilocalories": 63,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 343
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Dobladas potosinitas",
+                "kilocalories": 546,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 344
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Cerdo potosino",
+                "kilocalories": 257,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 345
+            },
+            {
+                "name": "Discada huasteca de pollo",
+                "kilocalories": 707,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 346
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Bayos de la olla",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 347
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 348
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 349
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Pastel de fresa",
+                "kilocalories": 211,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 350
+            }
+        ],
+        "waters": [
+            {
+                "name": "De manzana",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 351
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    },
+    {
+        "date": "14/06/2019",
+        "soups": [
+            {
+                "name": "Sopa del golfo",
+                "kilocalories": 153,
+                "dishType": {
+                    "name": "SOUP",
+                    "id": 1
+                },
+                "id": 352
+            },
+            {
+                "name": "Consomé de pollo",
+                "kilocalories": 0
+            }
+        ],
+        "complements": [
+            {
+                "name": "Arroz negro",
+                "kilocalories": 142,
+                "dishType": {
+                    "name": "COMPLEMENT",
+                    "id": 2
+                },
+                "id": 353
+            }
+        ],
+        "mainCourses": [
+            {
+                "name": "Chile relleno de queso con caldillo",
+                "kilocalories": 371,
+                "dishType": {
+                    "name": "MAIN_COURSE_ONE",
+                    "id": 3
+                },
+                "id": 354
+            },
+            {
+                "name": "Bistec de res en salsa verde",
+                "kilocalories": 174,
+                "dishType": {
+                    "name": "MAIN_COURSE_TWO",
+                    "id": 4
+                },
+                "id": 355
+            },
+            {
+                "name": "Bistek a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pechuga a la parrilla",
+                "kilocalories": 0
+            },
+            {
+                "name": "Pescado a la parrilla",
+                "kilocalories": 0
+            }
+        ],
+        "beans": [
+            {
+                "name": "Negros refritos con epazote",
+                "kilocalories": 150,
+                "dishType": {
+                    "name": "BEANS",
+                    "id": 5
+                },
+                "id": 356
+            }
+        ],
+        "salads": [
+            {
+                "name": "Barra de ensaladas",
+                "kilocalories": 0,
+                "dishType": {
+                    "name": "SALAD",
+                    "id": 6
+                },
+                "id": 357
+            }
+        ],
+        "breads": [
+            {
+                "name": "Integral",
+                "kilocalories": 160,
+                "dishType": {
+                    "name": "BREAD",
+                    "id": 7
+                },
+                "id": 358
+            }
+        ],
+        "desserts": [
+            {
+                "name": "Pera mantequilla",
+                "kilocalories": 89,
+                "dishType": {
+                    "name": "DESSERT",
+                    "id": 8
+                },
+                "id": 359
+            }
+        ],
+        "waters": [
+            {
+                "name": "De naranja",
+                "kilocalories": 213,
+                "dishType": {
+                    "name": "WATER",
+                    "id": 9
+                },
+                "id": 360
+            },
+            {
+                "name": "Natural",
+                "kilocalories": 0
+            }
+        ]
+    }
+]

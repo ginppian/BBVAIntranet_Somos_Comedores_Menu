@@ -16,9 +16,11 @@ public class ViewController: UIViewController {
     
     @IBAction func buttonAction(_ sender: Any) {
         
-        let menu1 = self.fachadaMenu1()
-        let menu2 = self.fachadaMenu2()
-        let menus = [menu1, menu2]
+//        let menu1 = self.fachadaMenu1()
+//        let menu2 = self.fachadaMenu2()
+//        let menus = [menu1, menu2]
+        
+        let menus = ReadJson.from(file: "comedores")
         
         let vc = BBVAIntranet_Somos_Comedores_Menu_ViewController(menus: menus)
         self.present(vc, animated: true, completion: nil)
