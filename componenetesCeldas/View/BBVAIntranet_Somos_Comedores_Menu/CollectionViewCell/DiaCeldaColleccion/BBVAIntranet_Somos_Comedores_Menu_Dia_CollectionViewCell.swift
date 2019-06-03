@@ -261,6 +261,7 @@ class BBVAIntranet_Somos_Comedores_Menu_Dia_CollectionViewCell: UICollectionView
     
     func refrescar_menu_dia_collectioncell_delegate(menu: BBVAIntranet_Somos_Comedores_Menu) {
         self.menu = menu
+        self.tableView.reloadData()
     }
 
 }
